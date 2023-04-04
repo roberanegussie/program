@@ -1,23 +1,14 @@
-/*
-Author -> Abhinav Prabhat
-Date   -> 28-01-2023
-*/
-
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
-
-    float paisa;
-    cout << "\n\nEnter the amount in paise -> ";
-    cin >> paisa;
-
-    float rupee;
-
-    cout << "\n\nAmount in rupee is -> " << paisa / 100 << endl
-         << endl;
-
+int main() {
+    
+    int paise, rupees;
+    cout << "Input  ( Ps ) : ";
+    cin>>paise;
+    rupees = paise / 100 ;
+    cout << "Output ( Rs ) : "<<rupees;
+    
+    
     return 0;
 }
